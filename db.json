@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "name": "Product 5",
+      "price": "14000",
+      "description": "This is product 4"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "price": 600,
+      "description": "This is product 6"
+    },
+    {
+      "name": "Sản phẩm 8 update",
+      "price": "500",
+      "id": 7
+    },
+    {
+      "name": "test",
+      "price": 0,
+      "id": 8
+    },
+    {
+      "name": "macbook ",
+      "price": "1110",
+      "id": 9
+    },
+    {
+      "name": "lenovo",
+      "price": "1110",
+      "id": 10
+    }
+  ]
+}
