@@ -1,0 +1,27 @@
+<div class="container">
+    <h1>{{title}}</h1>
+    <hr>
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Ảnh</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody *ngIf="products && products.length">
+          <tr *ngFor="let product of products; index as i">
+            <td>{{ i + 1 }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.price }}</td>
+            <td>
+              <button class="btn btn-danger" (click)="removeItem(product.id)">
+                xóa
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
